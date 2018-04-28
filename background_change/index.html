@@ -3,16 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
   </head>
-  <body>
+  <body id = "body">
     <header>
       <h1>RGB background</h1>
     </header>
     <main>
-      <input id = "r" type="text" name="" value="">
-      <input id = "g" type="text" name="" value="">
-      <input id = "b" type="text" name="" value="">
-      <button id ="checkButton" type="button" name="button"></button>
+      <section>
+        <input  placeholder="red" id = "r" type="text" name="" value="">
+        <input  placeholder="green" id = "g" type="text" name="" value="">
+        <input  placeholder="blue" id = "b" type="text" name="" value="">
+      </section>
+      <button id ="checkButton"  onclick="changeBackground()" type="button" name="button">Check background</button>
     </main>
   </body>
 </html>
